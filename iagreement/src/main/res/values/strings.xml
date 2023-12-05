@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="iagreement_popup_title">服务协议及隐私条款</string>
+    <string name="iagreement_desc">请你务必审慎阅读，充分理解“服务协议”和“隐私条款”条款，包括但不限于：为了向您提供更好的服务和用户体验，我们需要收集您的设备信息、操作日志等个人信息。您可以在“设置”中查看、变更、删除个人信息并管理您等授权。我们依据最新的个人信息保护法，特向您推送本提示。请您阅读并充分理解相关条款。\n您可以阅读《服务协议》及《隐私条款》进行了解详细信息。</string>
+    <string name="iagreement_note">如您同意，请点击"同意"开始接受我们的服务。</string>
+    <string name="iagreement_not">暂不使用</string>
+
+    <string name="iagreement_web_privacy">隐私政策</string>
+    <string name="iagreement_web_agreement">用户协议</string>
+    <string name="iagreement_agree">同意</string>
+
+    <string name="iagreement_again_title">温馨提示</string>
+    <string name="iagreement_again_desc">我们非常重视对您个人信息的保护，承诺严格按照隐私权政策保护及处理您的信息，如不同意该政策，很遗憾我们将无法提供服务。</string>
+    <string name="iagreement_again_not">不同意并退出应用</string>
+    <string name="iagreement_again_look">同意并进入应用</string>
+
+</resources>
