@@ -1,9 +1,7 @@
 package com.ifeng.iagreement
 
-import android.app.Dialog
 import android.content.Context
 import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.text.Spannable
 import android.text.SpannableStringBuilder
@@ -22,8 +20,6 @@ class IAgreementPopupDialog : DialogFragment() {
 
     companion object {
         private const val IAGREEMENT_DTO = "IAGREEMENT_DTO"
-//        private const val TEXT_CLICK_SERVICE = "《服务协议》"
-//        private const val TEXT_CLICK_PRIVACY = "《隐私条款》"
 
         fun newInstance(dto: IAgreementDto): IAgreementPopupDialog {
             val args = Bundle()

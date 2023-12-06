@@ -10,8 +10,8 @@ object IAgreementManager {
         fun onIAgreementQuit()
     }
 
-    fun showIAgreementPopupDialog(fragmentManager: FragmentManager, dto: IAgreementDto, onIAgreementCallback: Callback? = null){
-        IAgreementPopupDialog.newInstance(dto).apply {
+    fun showIAgreementPopupDialog(fragmentManager: FragmentManager, agreementDto: IAgreementDto, onIAgreementCallback: Callback? = null){
+        IAgreementPopupDialog.newInstance(agreementDto).apply {
            onIAgreementDialogCallback = object : IAgreementPopupDialog.Callback{
                override fun onIAgreementAgree() {
                    onIAgreementCallback?.onIAgreementAgree()

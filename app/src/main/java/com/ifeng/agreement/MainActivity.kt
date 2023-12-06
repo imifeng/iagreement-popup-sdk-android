@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         IAgreementManager.showIAgreementPopupDialog(
             supportFragmentManager,
-            dto = IAgreementDto(
+            agreementDto = IAgreementDto(
                 content = getString(com.ifeng.iagreement.R.string.iagreement_desc),
                 privacyText = "《隐私条款》",
                 agreementText = "《服务协议》",
