@@ -34,9 +34,12 @@ class IAgreementPopupDialog : DialogFragment() {
 
     private val iAgreementDto: IAgreementDto by lazy {
         requireNotNull(
-            arguments?.getParcelable(
-                IAGREEMENT_DTO
-            )
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
+                arguments?.getParcelable(IAGREEMENT_DTO, IAgreementDto::class.java)
+            } else {
+                @Suppress("DEPRECATION")
+                arguments?.getParcelable(IAGREEMENT_DTO)
+            }
         )
     }
 
