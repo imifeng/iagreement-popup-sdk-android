@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
                 content = getString(com.ifeng.iagreement.R.string.iagreement_desc),
                 privacyText = "《隐私条款》",
                 agreementText = "《服务协议》",
-                privacyUrl = "http://www.3xiaozhi.com/bprivacy",
+                privacyUrl = "http://www.3xiaozhi.com/lprivacy.php?k=",
                 agreementUrl = "http://www.3xiaozhi.com/agreement.html"
             ),
             onIAgreementCallback = object : IAgreementManager.Callback {
